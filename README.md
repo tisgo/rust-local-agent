@@ -18,7 +18,7 @@
 不写一行 Rust。目的是排掉两个会在 12 月才炸的雷。
 
 - [x] 实测本地模型速度，记下 token/s（低于 10 就换更小的模型开发）
-- [ ] 用 `curl.exe` 打一次带 `tools` 的请求，响应里出现 `tool_calls` 字段
+- [x] 用 `curl.exe` 打一次带 `tools` 的请求，响应里出现 `tool_calls` 字段
 - [ ] `cargo new rust-local-agent` 能跑，装好 rust-analyzer
 - [ ] `.gitignore` 里有 `target/`，第一次 commit 推上 GitHub
 
